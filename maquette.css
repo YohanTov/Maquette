@@ -1,0 +1,272 @@
+
+            /* ---------------------------------- TYPOGRAPHIE/COULEURS ---------------------------------- */
+
+@font-face {
+    font-family: Oswald;
+    src: url(./Oswald.ttf);
+}
+
+@font-face {
+    font-family: DroidSans;
+    src: url(./DroidSans.ttf);
+}
+
+@font-face {
+    font-family: DroidSerif;
+    src: url(./DroidSerif.ttf);
+}
+
+.menu{
+    font-family: DroidSans;
+    color: grey;
+}
+
+li{
+    font-family: DroidSerif;
+    font-size: x-small;
+    line-height: 2;
+    color: grey;
+}
+
+.corps{
+    font-size: x-small;
+    font-family: DroidSans;
+    color: grey;
+}
+
+.date{
+    align-items: flex-start;
+    font-family: DroidSans;
+    color: rgb(179, 176, 176);
+    font-size: x-small;
+    font-style: italic;
+}
+
+.lire{
+    font-size: x-small;
+    font-style: italic;
+    font-family: DroidSans;
+    color: rgb(164, 159, 159);
+}
+.titre{
+    color: rgb(235, 134, 66);
+}
+.botter{
+    color: rgb(161, 161, 161);
+}
+.jma{
+    align-items: flex-start;
+    font-family: DroidSans;
+    color: rgb(179, 176, 176);
+    font-size: x-small;
+    font-style: italic;
+}
+.soustt{
+    font-weight: bold;
+}
+.commis{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: xx-small;
+    color: rgb(142, 140, 140);
+}
+#mailcon{
+    text-decoration: underline;
+    color: rgb(178, 175, 175);
+}
+#mailsupp{
+    text-decoration: underline;
+    color: rgb(178, 175, 175);
+}
+.textefoot{
+    font-size: small;
+    font-family: DroidSans;
+    color: grey;
+}
+#copy{
+    color: rgb(164, 162, 162);
+    font-size: x-small;
+}
+            /* ----------------------------------- HEADER ----------------------------------- */
+
+.global{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    line-height: 1;
+    padding-bottom: 1px;
+}
+header{
+    background-image: url("./misc/grille.png");
+    margin-bottom: 1%;
+}
+.bords{
+    border-bottom: 1px solid rgb(207, 206, 206);
+    
+}
+
+#hotels{
+    border-bottom: 4px solid rgb(230, 100, 52);
+    padding-bottom: 8px;
+}
+
+#resto{
+    border-bottom: 4px solid rgb(255, 208, 0);
+    padding-bottom: 8px;    
+}
+
+#services{
+    border-bottom: 4px solid rgb(148, 206, 61);
+    padding-bottom: 8px;
+}
+
+#activities{
+    border-bottom: 4px solid rgb(89, 136, 201);
+    padding-bottom: 8px;
+}
+#plus{
+    border-bottom: 4px solid rgb(189, 88, 189);
+    padding-bottom: 8px;   
+}
+.video{
+    margin: 0 auto;
+    width: 560px;
+    display: block;
+    padding: 40px;
+    transition: transform .1s;
+}
+#logo{
+    height:96px;
+    width:171px;
+   position: absolute; top: 36pt; left: 108pt; 
+}
+.textemedium{
+    background-image: url("./misc/grille.png");
+    padding: 40px;
+    font-family: DroidSans;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%; 
+    padding-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.golf{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid rgb(167, 159, 159);
+    padding: 1em;
+    transition: transform .1s;
+    
+}
+.accrofood{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-left: 3%;
+    
+}
+.coms{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+.coms{
+    display: flex;
+}
+.images{
+    border: 1px solid rgb(239, 231, 231);
+    padding: 0.5em;
+    box-shadow: 1px 1px 1px; color: rgb(183, 181, 181);
+    transition: transform .1s;
+}
+.bottom{
+    background-image: url("./misc/grille.png");
+    display: flex;
+    justify-content: center;
+    padding-left: 15%; 
+    padding-right: 15%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+    
+    
+}
+.adresse{
+    display: flex;
+    width: 150px;
+}
+#accueil {
+    width: 28px;
+    height: 25px;
+}
+.tel{
+    display: flex;
+}
+.contact{
+    display: flex;
+}
+.support{ 
+    display: flex;
+}
+
+.billet{
+    width: 300px;
+}
+.lastcom{
+    width: 350px;
+}
+.blabla{
+    width: 300px;
+}
+.footimage{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: auto;
+}
+.footeur{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex;
+
+}
+.bordures{
+    border-top: 1px solid rgb(207, 206, 206);
+    border-bottom: 1px solid rgb(207, 206, 206);
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+iframe:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+        
+}
+h4:hover{
+    font-size: 110%;
+}
+li:hover{
+    font-size: 100%;
+}
+p:hover{
+    font-size: 100%;
+}
+small:hover{
+    font-size: 100%;
+}
